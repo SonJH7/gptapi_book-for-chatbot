@@ -1,0 +1,19 @@
+Chapter 1: 개발 환경 쉽게 구성하기
+Chapter 2: 쓸 만큼만 배우는 파이썬
+Chapter 3: 챗GPT와 API로 대화하기
+Chapter 4: 프롬프트 엔지니어링의 기초
+Chapter 5: 프롬프트 엔지니어링의 핵심 기법
+Chapter 6: 프롬프트 엔지니어링으로 챗봇 설계하고 구현하기
+Chapter 7: 웹 애플리케이션에서 챗봇과 대화하기
+Chapter 8: 프롬프트 엔지니어링으로 챗봇 꾸미기
+Chapter 9: 인간의 언어로 함수 호출하기
+Chapter 10: 에이전트 구현과 프롬프트 분할
+Chapter 11: 대화내용 저장하기
+Chapter 12: 기억을 위한 준비
+Chapter 13: 기억을 동작시키는 방법
+Chapter 14: Assistants API 개념 잡기
+Chapter 15: Assistants API 심화 학습
+Chapter 16: GPTs와 API 사용 전략
+Chapter 17: 카카오톡에 챗봇 올리기
+Chapter 18: 멀티모달 기능 적용하기
+부록 : 업그레이드에 대응하는 방법
