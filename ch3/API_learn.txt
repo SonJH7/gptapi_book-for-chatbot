@@ -1,0 +1,32 @@
+API(Application Program Interface) : 애플리케이션(응용 프로그램)간의 접점
+
+요청방식
+	- SDK 
+		import openai
+		openai.chat.completions.create(
+			model="gpt-4o",
+			messages=[{"role" : "user"}],
+		)
+	- HTTP
+		import requests
+		response = requests.post(url="",
+			headers={},
+			data = {}
+			)
+
+챗GPT API 대화 흐름
+	OpenAPI 함수에서 질문 던짐 -> API요청 수신/응답 함수 -> API Key 등록 여부 검사 -> 검사 통과 -> 챗GPT 모델에서 대답 반환 -> 프로그램 출력
+	
+필요한 세가지
+	1. API 키 등록 여부 검사를 통과하기 위한 API 키 획득하기
+	2. 챗GPT와 대화할 수 있는 API가 들어 있는 오픈AI SDK 패키지 설치하기
+	3. 오픈AI API를 이용해 호출과 응답을 하기 위한 코딩하기
+	
+패키지 <--> 모듈 <--> 라이브러리 <--> SDK 차이
+	패키지: 프로그램 코드가 들어 있는 파일들을 디렉터리로 구조화하여 묶어 놓은 것입니다. 이 때 각 파일을 모듈
+	pip install 명령어로 패키지를 설치하는데 이 행위는 1. 인터넷에 있는 파이썬 패키지 저장소에서 프로그램 파일(모듈)을 가져온다.
+	2. 설치하려는 컴퓨터의 특정한 위치에 패키지 디렉터리 전체를 배치한다.
+	
+	라이브러리: 통상 1개 이상의 패키지나 모듈의 묶음 
+	
+	SDK(Software Development Kit) : 패키지나 라이브러리가 개발 도구의 목적으로 구성되어 있을 때 (ex. openAI 패키지 역시 SDK)
