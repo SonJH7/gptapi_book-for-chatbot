@@ -11,3 +11,22 @@
 # 딕셔너리안에 리스트 정의 가능 value로
 
 # list, dict, set, tuple 공통함수 enumerate(컬렉션 데이터를 순서대로 꺼내와 인덱스를 반환), reversed, sorted, min, max, sum
+
+# 예외 객체는 아주 많다 젤 큰놈(BaseException)
+(중간놈 - BaseExceptionGroup, GeneratorExit, KeyboardInterrupt, SystemExit, Exception)
+
+# 내장변수 __name__ : 현재 실행 중인 프로그램 이름을 담고 있는 파이썬 내장 변수.
+ex)
+	if __name__ == "__main__":
+		print("main으로 실행되었습니다.")
+		main()
+		
+# from ex_raise import func1
+이렇게 해서 다른 파일에서 func1()으로 실행가능 같은 디렉토리내에 있어야함 
+
+# 어노테이션 : 변수나 함수의 반환값 등에 대한 타입 정보를 제공하는 구문 
+ex)
+	def greet(age: int) -> str:
+		return f"Hello, you are {age} years old."
+		
+# 로깅 : 효율적인 디버깅과 시스템 운영을 위해 이용 이 책에서는 코드를 간결하게 하고 언어 모델 활용과 관련한 설명에 집중하기 위해 로깅 이용 x
